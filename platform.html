@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Explore how ShareMesh securely distributes compute jobs across your organisation's machines." />
+    <meta name="theme-color" content="#ffffff" />
+    <link rel="icon" type="image/png" href="logo.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="site.css" />
+    <title>Platform - ShareMesh</title>
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav wrap" aria-label="Main navigation">
+        <a class="brand" href="index.html#top" aria-label="ShareMesh home">
+          <img class="brand-logo" src="logo.png" alt="ShareMesh" />
+        </a>
+        <button class="menu-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="nav-links">
+          <svg width="19" height="19" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" />
+          </svg>
+        </button>
+        <div class="nav-links" id="nav-links">
+          <a href="index.html" >Home</a>
+          <a href="platform.html" aria-current="page">Platform</a>
+          <a href="how-it-works.html" >How it works</a>
+          <a href="contribute.html" >Contribute</a>
+          <a class="button" href="setup.html" >
+            Setup
+            <svg width="15" height="15" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+              <path d="M4 10h12m-5-5 5 5-5 5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </a>
+        </div>
+      </nav>
+    </header>
+    <main id="top">
+<section class="section section-soft" id="platform" aria-labelledby="platform-title">
+        <div class="wrap">
+          <div class="section-heading">
+            <div class="eyebrow">A better way to compute</div>
+            <h2 id="platform-title">Your team has the power.<br />Utilize it.</h2>
+            <p>
+              ShareMesh brings your available machines together and makes
+              distributed computing feel refreshingly straightforward.
+            </p>
+          </div>
+          <div class="features">
+            <article class="feature-card">
+              <div class="feature-icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                  <path d="M12 3 5 6v5.5c0 4.5 3 7.6 7 9.5 4-1.9 7-5 7-9.5V6l-7-3Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" />
+                  <path d="m9 12 2 2 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              </div>
+              <h3>Isolated by design</h3>
+              <p>Every job runs inside a Docker sandbox, separated from the host machine’s files.</p>
+            </article>
+            <article class="feature-card">
+              <div class="feature-icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                  <circle cx="12" cy="12" r="8.5" stroke="currentColor" stroke-width="1.5" />
+                  <path d="M12 7v5l3.5 2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                  <path d="M4 5.5 6 4m14 1.5L18 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+                </svg>
+              </div>
+              <h3>Work shared fairly</h3>
+              <p>Round-robin scheduling spreads job chunks across the available grid.</p>
+            </article>
+            <article class="feature-card">
+              <div class="feature-icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                  <path d="M4 19V5m0 14h17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+                  <path d="m7 15 4-4 3 2 6-7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                  <circle cx="20" cy="6" r="1.5" fill="currentColor" />
+                </svg>
+              </div>
+              <h3>See every step</h3>
+              <p>Follow live logs and CPU, RAM, and GPU usage as your work runs.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+<section class="section section-soft" aria-labelledby="job-title">
+        <div class="wrap split">
+          <div class="split-copy">
+            <div class="eyebrow">For researchers &amp; developers</div>
+            <h2 id="job-title">Bring your container. Leave the heavy lifting to the grid.</h2>
+            <p>
+              Package the job you already know how to run. ShareMesh dispatches
+              chunks to available nodes and collects the output for you.
+            </p>
+            <ul class="check-list">
+              <li>
+                <svg width="16" height="16" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+                  <path d="m4.5 10 3.5 3.5 7.5-7.5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+                Keep your existing Python and Docker workflow
+              </li>
+              <li>
+                <svg width="16" height="16" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+                  <path d="m4.5 10 3.5 3.5 7.5-7.5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+                Run chunks in parallel across multiple machines
+              </li>
+              <li>
+                <svg width="16" height="16" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+                  <path d="m4.5 10 3.5 3.5 7.5-7.5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+                See live logs and resource usage
+              </li>
+            </ul>
+            <a class="button" href="how-it-works.html">Explore the workflow</a>
+          </div>
+
+          <div class="compute-art" role="img" aria-label="A Docker job being distributed across connected computers">
+            <svg viewBox="0 0 460 340" fill="none" aria-hidden="true">
+              <circle cx="230" cy="168" r="132" stroke="#e2edf1" />
+              <circle cx="230" cy="168" r="102" stroke="#d7e8ee" />
+              <path d="M230 138 132 84m98 54 99-54m-99 54-100 108m100-108 100 108m-100-108v118" stroke="#c6dfe7" stroke-width="2" stroke-dasharray="5 7" />
+
+              <rect x="178" y="112" width="104" height="103" rx="17" fill="#fff" stroke="#bcd5df" stroke-width="1.5" />
+              <rect x="192" y="127" width="76" height="73" rx="12" fill="#e8f3f7" />
+              <path d="m230 139 20 11v24l-20 11-20-11v-24l20-11Z" fill="#d3eaf0" stroke="#168ba5" stroke-width="1.5" stroke-linejoin="round" />
+              <path d="m210 150 20 11 20-11m-20 11v24" stroke="#168ba5" stroke-width="1.5" stroke-linejoin="round" />
+              <circle cx="230" cy="139" r="3.5" fill="#168ba5" />
+              <circle cx="210" cy="150" r="3.5" fill="#168ba5" />
+              <circle cx="250" cy="150" r="3.5" fill="#168ba5" />
+
+              <rect x="101" y="52" width="63" height="49" rx="8" fill="#fff" stroke="#bcd5df" stroke-width="1.5" />
+              <rect x="109" y="60" width="47" height="31" rx="4" fill="#f2f8fa" />
+              <path d="M122 108h21m-10-7v7m-16 0h32" stroke="#91bdcb" stroke-width="2" stroke-linecap="round" />
+              <circle cx="132" cy="76" r="6" fill="#dcebf0" />
+              <path d="m129 76 2 2 4-4" stroke="#287e96" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+
+              <rect x="296" y="52" width="63" height="49" rx="8" fill="#fff" stroke="#bcd5df" stroke-width="1.5" />
+              <rect x="304" y="60" width="47" height="31" rx="4" fill="#f2f8fa" />
+              <path d="M317 108h21m-10-7v7m-16 0h32" stroke="#91bdcb" stroke-width="2" stroke-linecap="round" />
+              <path d="M314 79h6l4-8 6 14 4-7h7" stroke="#4c9bb1" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+
+              <rect x="100" y="220" width="63" height="49" rx="8" fill="#fff" stroke="#bcd5df" stroke-width="1.5" />
+              <rect x="108" y="228" width="47" height="31" rx="4" fill="#f2f8fa" />
+              <path d="M121 276h21m-10-7v7m-16 0h32" stroke="#91bdcb" stroke-width="2" stroke-linecap="round" />
+              <path d="m118 251 7-8 6 5 9-11 8 7" stroke="#4c9bb1" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+
+              <rect x="297" y="220" width="63" height="49" rx="8" fill="#fff" stroke="#bcd5df" stroke-width="1.5" />
+              <rect x="305" y="228" width="47" height="31" rx="4" fill="#f2f8fa" />
+              <path d="M318 276h21m-10-7v7m-16 0h32" stroke="#91bdcb" stroke-width="2" stroke-linecap="round" />
+              <circle cx="328" cy="242" r="4" fill="#dcebf0" />
+              <circle cx="341" cy="242" r="4" fill="#c6dfe7" />
+              <circle cx="328" cy="254" r="4" fill="#c6dfe7" />
+              <circle cx="341" cy="254" r="4" fill="#dcebf0" />
+
+              <rect x="201" y="290" width="58" height="24" rx="12" fill="#fff" stroke="#d7e8ee" />
+              <circle cx="214" cy="302" r="3" fill="#48a7be" />
+              <path d="M222 302h25" stroke="#91bdcb" stroke-width="2" stroke-linecap="round" />
+            </svg>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="wrap footer-inner">
+        <a class="brand" href="index.html#top" aria-label="ShareMesh home">
+          <img class="brand-logo" src="logo.png" alt="ShareMesh distributed computing" />
+        </a>
+        <span>Making more of the computing power we already have.</span>
+        <span>Copyright 2026 ShareMesh | MIT License</span>
+      </div>
+    </footer>
+    <script src="site.js" defer></script>
+  </body>
+</html>

@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Learn how to package a compute job, split it into chunks, and run it across the ShareMesh grid." />
+    <meta name="theme-color" content="#ffffff" />
+    <link rel="icon" type="image/png" href="logo.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="site.css" />
+    <title>How it works - ShareMesh</title>
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav wrap" aria-label="Main navigation">
+        <a class="brand" href="index.html#top" aria-label="ShareMesh home">
+          <img class="brand-logo" src="logo.png" alt="ShareMesh" />
+        </a>
+        <button class="menu-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="nav-links">
+          <svg width="19" height="19" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" />
+          </svg>
+        </button>
+        <div class="nav-links" id="nav-links">
+          <a href="index.html" >Home</a>
+          <a href="platform.html" >Platform</a>
+          <a href="how-it-works.html" aria-current="page">How it works</a>
+          <a href="contribute.html" >Contribute</a>
+          <a class="button" href="setup.html" >
+            Setup
+            <svg width="15" height="15" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+              <path d="M4 10h12m-5-5 5 5-5 5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </a>
+        </div>
+      </nav>
+    </header>
+    <main id="top">
+<section class="section" id="how-it-works" aria-labelledby="steps-title">
+        <div class="wrap">
+          <div class="section-heading">
+            <div class="eyebrow">From image to insight</div>
+            <h2 id="steps-title">Three steps. One shared grid.</h2>
+            <p>Bring your container. ShareMesh takes care of getting it where it needs to go.</p>
+          </div>
+          <div class="steps">
+            <article class="step">
+              <h3>Package your work</h3>
+              <p>Put your Python, ML, or data-processing job into a Docker image.</p>
+            </article>
+            <article class="step">
+              <h3>Choose your split</h3>
+              <p>Submit the image and decide how many chunks should run in parallel.</p>
+            </article>
+            <article class="step">
+              <h3>Watch the grid work</h3>
+              <p>Follow live progress as available machines pick up and run each chunk.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section class="section section-soft" aria-label="Continue to setup">
+        <div class="wrap">
+          <div class="cta-panel">
+            <div class="eyebrow">Ready when you are</div>
+            <h2>Take your first step.</h2>
+            <p>Get the project files and follow the simple setup instructions.</p>
+            <a class="button" href="setup.html">Go to setup</a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="wrap footer-inner">
+        <a class="brand" href="index.html#top" aria-label="ShareMesh home">
+          <img class="brand-logo" src="logo.png" alt="ShareMesh distributed computing" />
+        </a>
+        <span>Making more of the computing power we already have.</span>
+        <span>Copyright 2026 ShareMesh | MIT License</span>
+      </div>
+    </footer>
+    <script src="site.js" defer></script>
+  </body>
+</html>
